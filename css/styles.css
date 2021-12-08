@@ -1,0 +1,57 @@
+/* 
+COLORS
+dark green      #006838
+dark orange     #c82034
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,500&family=Readex+Pro&family=Spectral:ital,wght@0,200;1,200&display=swap');
+
+.fonthead{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.fontsub{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+.fontnav{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.fontbod{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.fontbodital{
+    font-family: 'Spectral', serif;
+    font-style: italic;
+}
+
+.fontbloq{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.fontside{
+    font-family: 'Lora', serif;
+    font-weight: 200;
+}
+
+.navitem{
+    float: left;
+    padding: 1em;
+}
+
+.navitem:hover{
+    background-color: #006838;
+}
+
+header{
+    width: 100%;
+    color: #006838;
+}
