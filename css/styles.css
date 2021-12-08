@@ -26,7 +26,7 @@ header{
     float: left; 
 }
 
-.fonthead{
+.headerfont{
     font-family: 'Lora', serif;
     font-weight: 700;
     font-size: 3em;
@@ -40,16 +40,15 @@ header{
     margin-top: -1em;
 }
 
-.fontnav{
+.navbar{
     font-family: 'Lora', serif;
     font-weight: 700;
     font-size: 2em;
-    position: relative;
-    margin: -3em;
+    margin: -3em 0em 0em 0em;
 }
 
 .navitem{
-    display: block;
+    display: inline-block;
     float: left;
     padding: 1em;
     text-decoration: none;
@@ -61,30 +60,13 @@ header{
     color: #ffffff;
 }
 
-
-.fontsub{
-    font-family: 'Lora', serif;
-    font-weight: 500;
-    text-align: center;
+.navactive{
+    display: inline-block;
+    float: left;
+    padding: 1em;
+    text-decoration: none;
+    color:#006838;
+    text-transform: uppercase;
 }
-
-.fontbod{
-    font-family: 'Readex Pro', sans-serif;
-}
-
-.fontbodital{
-    font-family: 'Spectral', serif;
-    font-style: italic;
-}
-
-.fontbloq{
-    font-family: 'Readex Pro', sans-serif;
-}
-
-.fontside{
-    font-family: 'Lora', serif;
-    font-weight: 200;
-}
-
 
 
