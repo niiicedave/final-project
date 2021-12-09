@@ -4,15 +4,21 @@ dark green      #006838
 dark orange     #c82034
 */
 
+/* * {
+    margin: 0;
+    box-sizing: border-box;
+} */
+
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,500&family=Readex+Pro&family=Spectral:ital,wght@0,200;1,200&display=swap');
 
 
 body{
-    padding: 2em;
+    padding: 1em;
     background-color: bisque;
 }
 
+/*MASTHEAD - HEADER*/
 header{
     width: 95%;
     color: #006838;
@@ -21,7 +27,7 @@ header{
 }
 
 .logo{
-    margin-left: 3em;
+    margin-left: 2em;
     margin-right: 1em;
     float: left; 
 }
@@ -35,22 +41,25 @@ header{
 
 #headersub{
     font-family: 'Lora', serif;
+    font-size: 2em;
     font-weight: 500;
     text-align: left;
     margin-top: -1em;
 }
 
+/*NAV - NAVBAR*/
 .navbar{
-    font-family: 'Lora', serif;
+    font-family: 'Readex-Pro', sans-serif;
     font-weight: 700;
-    font-size: 2em;
-    margin: -3em 0em 0em 0em;
+    font-size: 1.5em;
+    margin: -3em 4em 0em 4em;
 }
 
 .navitem{
     display: inline-block;
-    float: left;
-    padding: 1em;
+    float: right;
+    padding-left: 1em;
+    padding-right: 1em;
     text-decoration: none;
     color:#c82034;
 }
@@ -63,7 +72,8 @@ header{
 .navactive{
     display: inline-block;
     float: left;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
     text-decoration: none;
     color:#006838;
     text-transform: uppercase;
