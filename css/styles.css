@@ -4,25 +4,26 @@ dark green      #006838
 dark orange     #c82034
 */
 
-/* * {
-    margin: 0;
-    box-sizing: border-box;
-} */
-
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,500&family=Readex+Pro&family=Spectral:ital,wght@0,200;1,200&display=swap');
 
 
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     padding: 1em;
-    background-color: bisque;
+    background-color: #ffdc89;
+    display:inline-block
 }
 
 /*MASTHEAD - HEADER*/
 header{
-    width: 95%;
+    width: 100%;
     color: #006838;
-    background-color: #ffffff;
+    background-color: #ffe8d5;
     padding: 1em 1em 5em 1em;
 }
 
@@ -48,6 +49,11 @@ header{
 }
 
 /*NAV - NAVBAR*/
+
+nav{
+    margin: 0 0 0 4em;
+}
+
 .navbar{
     font-family: 'Readex-Pro', sans-serif;
     font-weight: 700;
@@ -56,7 +62,6 @@ header{
 }
 
 .navitem{
-    display: inline-block;
     float: right;
     padding-left: 1em;
     padding-right: 1em;
@@ -79,4 +84,54 @@ header{
     text-transform: uppercase;
 }
 
+
+/* MAIN CONTENT */
+
+.maincontent{
+    position: relative;
+    padding: 0 0 0 0;
+    margin: 0 3em 0 0;
+}
+
+
+
+section {
+    position: relative;
+    width: 68%;
+    height: 200px;
+    margin: 3em 0 0 0;
+    padding: 1em;
+    float: right;
+    background-color: #ffffff;
+}
+
+.secsubfon{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+.asisubfon{
+    font-family: 'Spectral', serif;
+}
+
+aside{
+    position:relative;
+    width: 28%;
+    margin: 0;
+    padding: 0 2em 2em 2em;
+    float: left;
+    background-color: #e5eadb;
+}
+
+article{
+    width: 100%;
+    margin: 6em 2em 2em 2em;
+    float: left;
+}
+
+/* ------FORM------ */
+
+#fname{}
+
+#lname{}
 
