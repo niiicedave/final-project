@@ -2,136 +2,147 @@
 COLORS
 dark green      #006838
 dark orange     #c82034
+background yellow #ffdc89
+footer darkgray  #6d757d
+*/
+
+/*
+FONTS
+Header 'Lora' weight '700'
+Subhea  'Lora' weight '700' 
+Navbar 'Readex Pro'
+Bodycopy 'Readex Pro'
+Bodyitalic 'Spectral' font-style 'italic' 
 */
 
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,500&family=Readex+Pro&family=Spectral:ital,wght@0,200;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,500&family=Readex+Pro&family=Spectral:ital,wght@0,200;1,200&display=swap");
 
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-
-body{
-    padding: 1em;
-    background-color: #ffdc89;
-    display:inline-block
+/*FONTS------------------*/
+.headerfont {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 3em;
 }
 
-/*MASTHEAD - HEADER*/
-header{
-    width: 100%;
-    color: #006838;
-    background-color: #ffe8d5;
-    padding: 1em 1em 5em 1em;
+#headersub {
+  font-family: "Lora", serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
+  margin-top: -1em;
 }
 
-.logo{
-    margin-left: 2em;
-    margin-right: 1em;
-    float: left; 
+.secsubfon {
+  font-family: "Lora", serif;
+  font-weight: 500;
 }
 
-.headerfont{
-    font-family: 'Lora', serif;
-    font-weight: 700;
-    font-size: 3em;
+.asisubfon {
+  font-family: "Spectral", serif;
 }
 
-
-#headersub{
-    font-family: 'Lora', serif;
-    font-size: 2em;
-    font-weight: 500;
-    text-align: left;
-    margin-top: -1em;
+footer p {
+  line-height: 2em;
 }
 
-/*NAV - NAVBAR*/
-
-nav{
-    margin: 0 0 0 4em;
+.footcopyr {
+  font-size: 8pt;
 }
 
-.navbar{
-    font-family: 'Readex-Pro', sans-serif;
-    font-weight: 700;
-    font-size: 1.5em;
-    margin: -3em 4em 0em 4em;
+/*LAYOUT--------------*/
+
+body {
+  background-color: #ffdc89;
 }
 
-.navitem{
-    float: right;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    color:#c82034;
+header,
+section,
+footer {
+  width: 98%;
+  margin: 1em;
+  padding: 1em;
 }
 
-.navitem:hover{
-    background-color: #006838;
-    color: #ffffff;
+header {
+  color: #006838;
+  background-color: #ffe8d5;
+  height: 16em;
 }
 
-.navactive{
-    display: inline-block;
-    float: left;
-    padding-left: 1em;
-    padding-right: 1em;
-    text-decoration: none;
-    color:#006838;
-    text-transform: uppercase;
+nav {
+  position: relative;
+  display: inline-block;
 }
 
-
-/* MAIN CONTENT */
-
-.maincontent{
-    position: relative;
-    padding: 0 0 0 0;
-    margin: 0 3em 0 0;
+footer {
+  background-color: #6d757d;
+  color: #ffffff;
+  height: 12em;
+  padding-top: 2em;
+  font-family: "Readex Pro", sans-serif;
 }
 
-
-
-section {
-    position: relative;
-    width: 68%;
-    height: 200px;
-    margin: 3em 0 0 0;
-    padding: 1em;
-    float: right;
-    background-color: #ffffff;
+#footcol1 {
+  float: left;
+  height: 8em;
+  width: 30%;
+  border-right: 2px solid #ffffff;
+  text-align: center;
 }
 
-.secsubfon{
-    font-family: 'Lora', serif;
-    font-weight: 500;
+#footcol2 {
+  float: left;
+  width: 70%;
+  text-align: center;
 }
 
-.asisubfon{
-    font-family: 'Spectral', serif;
+#footrow:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-aside{
-    position:relative;
-    width: 28%;
-    margin: 0;
-    padding: 0 2em 2em 2em;
-    float: left;
-    background-color: #e5eadb;
+/*HEADER LOGO*/
+
+.logo {
+  margin-left: 2em;
+  margin-right: 1em;
+  float: left;
 }
 
-article{
-    width: 100%;
-    margin: 6em 2em 2em 2em;
-    float: left;
+/*NAVBAR*/
+
+.navbar {
+  font-family: "Readex-Pro", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.navitem {
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  color: #c82034;
+}
+
+.navitem:hover {
+  background-color: #006838;
+  color: #ffffff;
+}
+
+.navactive {
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-decoration: none;
+  color: #006838;
+  text-transform: uppercase;
 }
 
 /* ------FORM------ */
-
-#fname{}
-
-#lname{}
-
