@@ -28,32 +28,42 @@ body {
   background-color: #ffdc89;
 }
 
+#hero {
+  background-image: url(../img/hero-image.jpg);
+  background-size: cover;
+}
+
+/* make anything center */
+.center {
+  text-align: center;
+}
+
 /*HEADER-*/
+
+/*add hero image -----HERO IMAGE-----*/
+#head1 {
+  background-image: linear-gradient(to left, #ffdc89, #ffe8d5);
+  background-image: url(../img/hero-image.jpg);
+  background-size: cover;
+  height: 600px;
+  color: #006838;
+}
 
 .headerfont {
   font-family: "Lora", serif;
   font-weight: 700;
   font-size: 3em;
+  text-shadow: #ffffff 0 0 3px;
 }
 
 .headersub {
   font-family: "Lora", serif;
   font-size: 2em;
   font-weight: 500;
-  line-height: 2.4em;
+  text-shadow: #ffffff 2px 2px 4px;
+  line-height: 1.5em;
   text-align: left;
   margin-top: -1em;
-}
-
-/* HERO IMAGE*/
-
-.headertop {
-  background-image: url("img/hero-image.jpg");
-  background-position: top left;
-  background-size: cover;
-  background-color: #ffe8d5;
-  height: 400px;
-  color: #006838;
 }
 
 /*HEADER LOGO*/
@@ -94,11 +104,13 @@ nav {
   color: #006838;
   border-radius: 0.4em;
   text-align: center;
+  text-shadow: #ffffff 1px 1px 2px;
 }
 
 .navitem:hover {
   background-color: #006838;
   color: #ffffff;
+  text-shadow: none;
 }
 
 .navactive {
@@ -144,6 +156,7 @@ section strong {
 .section-column-1 {
   flex: 30%;
   padding: 1em 3em;
+  background-color: #e8e2d4;
 }
 
 .section-column-2 {
