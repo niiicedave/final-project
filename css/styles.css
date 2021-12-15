@@ -28,19 +28,14 @@ body {
   background-color: #ffdc89;
 }
 
-#hero {
-  background-image: url(../img/hero-image.jpg);
-  background-size: cover;
-}
-
 /* make anything center */
 .center {
   text-align: center;
 }
 
-/*HEADER-*/
+/*ALL THINGS HEADER-*/
 
-/* hero image*/
+/* the hero image*/
 #head1 {
   background-image: linear-gradient(to left, #ffdc89, #ffe8d5);
   background-image: url(../img/hero-image.jpg);
@@ -66,7 +61,7 @@ body {
   margin-top: -1em;
 }
 
-/*HEADER LOGO*/
+/*the logo*/
 
 .logo {
   margin-left: 2em;
@@ -86,13 +81,13 @@ header {
   border-radius: 0 0 2em 2em;
 }
 
+/* ALL THINGS NAVIGATION */
+
 nav {
   position: relative;
   display: inline-block;
   margin-top: -1em;
 }
-
-/*NAVBAR*/
 
 .navbar {
   font-family: "Readex-Pro", sans-serif;
