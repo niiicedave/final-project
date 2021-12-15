@@ -40,7 +40,7 @@ body {
 
 /*HEADER-*/
 
-/*add hero image -----HERO IMAGE-----*/
+/* hero image*/
 #head1 {
   background-image: linear-gradient(to left, #ffdc89, #ffe8d5);
   background-image: url(../img/hero-image.jpg);
@@ -80,7 +80,10 @@ footer {
   width: 98%;
   margin: 1em 0 1em 1em;
   padding: 1em;
-  border-radius: 2em;
+}
+
+header {
+  border-radius: 0 0 2em 2em;
 }
 
 nav {
@@ -100,6 +103,7 @@ nav {
 .navitem {
   float: left;
   padding: 0 1em 0 1em;
+  margin: 0 1em 0 1em;
   text-decoration: none;
   color: #006838;
   border-radius: 0.4em;
@@ -125,6 +129,7 @@ nav {
 }
 
 /*--------SECTION------*/
+
 section p {
   font-family: "Readex Pro", sans-serif;
   font-weight: 400;
@@ -151,19 +156,25 @@ section strong {
 .section-row {
   display: flex;
   flex-direction: row;
+  column-gap: 40px;
 }
 
 .section-column-1 {
   flex: 30%;
   padding: 1em 3em;
+  margin-left: -1em;
   background-color: #e8e2d4;
+  background-image: linear-gradient(to right, #ffe8d5, #e8e2d4);
+  border: 2px solid #006838;
 }
 
 .section-column-2 {
   flex: 70%;
   padding: 1em 6em;
   margin-right: -1em;
-  background-image: linear-gradient(#ffe8d5, #e8e2d4);
+  background-color: #ffe8d5;
+  background-image: linear-gradient(to right, #ffe8d5, #e8e2d4);
+  border: 2px solid #006838;
 }
 
 /*FOOTER*/
@@ -182,6 +193,7 @@ footer {
   height: 12em;
   padding-top: 2em;
   font-family: "Readex Pro", sans-serif;
+  border-radius: 2em 2em 0 0;
 }
 
 #footcol1 {
